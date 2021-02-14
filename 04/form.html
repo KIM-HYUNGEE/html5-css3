@@ -6,9 +6,25 @@
     <title>HTML5 폼</title>
 </head>
 <body>
-	<form action="search.php" method="post">
-		<input type="text" title="검색">
-		<input type="submit" value="검색">
+	<p>
+		<form action="search.php" method="post">
+			<input type="text" title="검색" size="8" maxlength="12"> 
+			<input type="reset" value="reset">
+		</form>
+	</p>
+	<form>
+		<h3>수강분야 테스트</h3>
+		<ul style="list-style: none">
+			<li><input type="checkbox" id="check1" value="grm"><label for="check1">국어 문법</label></li>
+			<li><input type="checkbox" id="check2" value="wr">국어 작문</li>
+			<li>
+				<input type="color" id="colorTest"><label for="colorTest">색상 정하기</label>
+			</li>
+			<li>
+				<input type="date">
+			</li>
+
+		</ul>
 	</form>
 </body>
 </html>
