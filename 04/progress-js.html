@@ -21,7 +21,7 @@
 		progress=document.getElementById("progress"),
 		loaded=0;
 		var load=function(){
-			loaded +=5;
+			loaded +=0.1;
 			bar.value=loaded;		
 
 			if(loaded ==100){
@@ -31,7 +31,7 @@
 	
 		var dummyLoad = setInterval(function() {
 			load()	
-		}, 500);
+		}, 5);
 	}
 	</script>    
 	<input type="button" value="다운로드 시작" onClick="dwn()">    

@@ -42,6 +42,8 @@ li,p {
  {
     position:relative;
     top:100px;
+    color: #fff;
+    padding: 0;
  }
 
 #main {
@@ -56,6 +58,20 @@ li,p {
     padding:20px;
     margin:10px;
     border-bottom:1px dotted #222;
+}
+
+table {
+    width: 70%;
+    border: 1px solid #222;
+    border-collapse: collapse;
+}
+thead {
+    background: #eee;
+}
+th,td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 0.8em;
 }
 
 section > p, section>table {
